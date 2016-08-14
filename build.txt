@@ -1,0 +1,3 @@
+echo "EE402 - Building the Test C++ Program on the Beaglebone Black"
+gcc cfile.c -o cfile
+echo "Finished"
