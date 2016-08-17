@@ -1,7 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
+#include<malloc.h>
+#include<assert.h>
+#include<stdlib.h>
+#define POINTERS "pointers.h"
 
-int main()
+#include POINTERS
+
+int main(int argc, char *argv[])
 {
-printf("Hello, world!\n");
-return 0;
+	
+	
+	printf("pointers test 1\n");
+	pointers_example1();
+	
+	
+	
+	return 0;
 }
